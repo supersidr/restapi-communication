@@ -6,8 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.netology.user.Entity.User;
+import ru.netology.user.model.User;
 import ru.netology.user.Service.UserService;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
@@ -20,5 +22,10 @@ public class UserController {
         return userService.getUserById(userId)
                 .map(ResponseEntity::ok)
                 .orElseGet(() -> ResponseEntity.notFound().build());
+    }
+
+    @GetMapping
+    public ResponseEntity<List<User>> getAllUsers() {
+        return ResponseEntity.ok(userService.getAllUsers());
     }
 }
