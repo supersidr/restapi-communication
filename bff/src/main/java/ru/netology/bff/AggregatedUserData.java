@@ -1,7 +1,12 @@
 package ru.netology.bff;
 
-import ru.netology.bff.dto.Order;
-import ru.netology.bff.dto.User;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import ru.netology.bff.model.Order;
+import ru.netology.bff.model.User;
+
+import java.util.List;
 
 @Data
 @AllArgsConstructor

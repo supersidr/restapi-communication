@@ -2,11 +2,11 @@ package ru.netology.bff.service;
 
 import ru.netology.bff.client.UserClient;
 import ru.netology.bff.client.OrderClient;
-import ru.netology.bff.dto.UserProfileResponse;
+import ru.netology.bff.model.UserProfileResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.netology.bff.dto.User;
-import ru.netology.bff.dto.Order;
+import ru.netology.bff.model.User;
+import ru.netology.bff.model.Order;
 import java.util.List;
 
 @Service

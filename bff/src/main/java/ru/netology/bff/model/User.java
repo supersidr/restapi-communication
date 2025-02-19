@@ -1,4 +1,4 @@
-package ru.netology.bff.dto;
+package ru.netology.bff.model;
 
 import lombok.Data;
 
