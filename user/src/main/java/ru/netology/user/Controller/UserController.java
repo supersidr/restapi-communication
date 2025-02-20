@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import ru.netology.user.model.User;
+import ru.netology.contracts.dto.User;
 import ru.netology.user.Service.UserService;
 
 import java.util.List;

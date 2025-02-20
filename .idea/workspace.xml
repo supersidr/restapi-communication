@@ -4,18 +4,97 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2357bfbb-1d65-4148-ab55-6c4585544b90" name="Changes" comment="" />
+    <list default="true" id="2357bfbb-1d65-4148-ab55-6c4585544b90" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/bff.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/bff/rest-communication.bff.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/contracts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/contracts/rest-communication.contracts.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/order.main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/restapi-communication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/bff/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bff/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/ru/netology/order/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/ru/netology/contracts/dto/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order/src/main/java/ru/netology/order/model/OrderItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/ru/netology/contracts/dto/OrderItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/user/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ru/netology/user/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ru/netology/user/Controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ru/netology/user/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/user/src/main/java/ru/netology/user/Service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/src/main/java/ru/netology/user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/contracts/src/main/java/ru/netology/contracts/dto/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/bff">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/contracts">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/order">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/user">
+      <ProjectState />
+    </projectState>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="compileClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="user" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+                <item name="runtimeClasspath" type="62daadca:ExternalSystemViewDefaultContributor$DependencyScopeExternalSystemNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -25,9 +104,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
 }]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2t5QoUBmPqLm6TReF7GVTs1mUg7" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,9 +121,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build contracts.executor": "Run",
+    "Gradle.Build user.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "<unknown>",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ContractsApplication.executor": "Run",
+    "Spring Boot.UserApplication (1).executor": "Run",
+    "git-widget-placeholder": "contracts",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/igor/PROJECTS/restapi-communication",
     "node.js.detected.package.eslint": "true",
@@ -45,14 +140,92 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.scopes",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/contracts/src/main/java/ru/netology/contracts/dto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication (1)">
+    <configuration name="BffApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="bff.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.bff.BffApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BffApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rest-communication.bff.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.bff.BffApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractsApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rest-communication.contracts.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.contracts.ContractsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContractsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="contracts.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.contracts.ContractsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rest-communication.order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.order.OrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="rest-communication.user.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.netology.user.UserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
-        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
       </set>
     </attachedChunks>
   </component>
@@ -65,6 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1739639630480</updated>
       <workItem from="1739639631803" duration="2340000" />
+      <workItem from="1740071385646" duration="8341000" />
     </task>
     <servers />
   </component>
