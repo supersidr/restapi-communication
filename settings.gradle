@@ -1,6 +1,6 @@
 rootProject.name = 'rest-communication'
 
+include 'contracts'
 include 'bff'
 include 'user'
 include 'order'
-include 'contracts'

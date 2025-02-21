@@ -1,2 +1,3 @@
-rootProject.name = 'user'
+//rootProject.name = 'user'
+//rootProject.name = 'rest-communication'
 include 'contracts'
