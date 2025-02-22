@@ -10,12 +10,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("${bff.service.api}")
+@RequestMapping("${bff.service.api.bff}")
 @RequiredArgsConstructor
 public class BffController {
     private final BffService bffService;
 
-    @GetMapping("/user/{userId}")
+    @GetMapping("${bff.service.api.user}")
     public ResponseEntity<UserProfileResponse> getUserProfile(@PathVariable Long userId) {
         return ResponseEntity.ok(bffService.getUserProfile(userId));
     }

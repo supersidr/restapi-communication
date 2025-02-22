@@ -1,10 +1,10 @@
 spring.application.name: "bff"
 user.service:
   url: "http://localhost:8081"
-  path: "/api/users/"
+  path: "/api/users/{userId}"
 order.service:
   url: "http://localhost:8082"
-  path: "/api/orders/by-user"
+  path: "/api/orders/by-user/{userId}"
 bff.service.api:
-  root: "/api/site-bff"
-  user: "/user"
+  bff: "/api/site-bff"
+  user: "/user/{userId}"

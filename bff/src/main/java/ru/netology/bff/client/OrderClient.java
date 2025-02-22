@@ -8,6 +8,6 @@ import ru.netology.contracts.dto.Order;
 
 @FeignClient(name = "order-service", url = "${order.service.url}")
 public interface OrderClient {
-    @GetMapping("${order.service.path}/{userId}")
+    @GetMapping("${order.service.path}")
     List<Order> getOrdersByUser(@PathVariable Long userId);
 }

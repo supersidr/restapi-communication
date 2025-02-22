@@ -12,12 +12,12 @@ import ru.netology.user.Service.UserService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("${user.service.api.users}")
 @RequiredArgsConstructor
 public class UserController {
     private final UserService userService;
 
-    @GetMapping("/{userId}")
+    @GetMapping("${user.service.api.userId}")
     public ResponseEntity<User> getUser(@PathVariable Long userId) {
         return userService.getUserById(userId)
                 .map(ResponseEntity::ok)
