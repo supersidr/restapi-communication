@@ -1,5 +1,5 @@
 spring.application.name: user
-server.port: 8081
+server.port: ${user.service.port}
 spring:
   config:
     import: "classpath:api-mappings.yml"
