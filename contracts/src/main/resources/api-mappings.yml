@@ -1,0 +1,14 @@
+user.service:
+  url: "http://localhost:${server.port}"
+  api:
+    users: "/api/users"
+    userId: "/{userId}"
+order.service:
+  url: "http://localhost:${server.port}"
+  api:
+    orders: "/api/orders"
+    userId: "/by-user/{userId}"
+    orderId: "/{orderId}"
+bff.service.api:
+  bff: "/api/site-bff"
+  user: "/user/{userId}"

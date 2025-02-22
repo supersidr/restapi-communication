@@ -1,7 +1,5 @@
 spring.application.name: user
 server.port: 8081
-user.service:
-  url: "http://localhost:${server.port}"
-  api:
-    users: "/api/users"
-    userId: "/{userId}"
+spring:
+  config:
+    import: "classpath:api-mappings.yml"

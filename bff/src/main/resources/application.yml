@@ -1,10 +1,4 @@
 spring.application.name: "bff"
-user.service:
-  url: "http://localhost:8081"
-  path: "/api/users/{userId}"
-order.service:
-  url: "http://localhost:8082"
-  path: "/api/orders/by-user/{userId}"
-bff.service.api:
-  bff: "/api/site-bff"
-  user: "/user/{userId}"
+spring:
+  config:
+    import: "classpath:api-mappings.yml"
