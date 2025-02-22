@@ -1,0 +1,6 @@
+spring.application.name: "bff"
+server.port: ${bff.service.port}
+spring:
+  config:
+    import: "classpath:api-mappings.yml"
+

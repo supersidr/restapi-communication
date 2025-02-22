@@ -3,10 +3,10 @@ package ru.netology.bff.client;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import ru.netology.bff.model.User;
+import ru.netology.contracts.dto.User;
 
-@FeignClient(name = "user-service", url = "http://localhost:8081")
+@FeignClient(name = "user-service", url = "${user.service.url}")
 public interface UserClient {
-    @GetMapping("/api/users/{userId}")
+    @GetMapping("${user.service.api.users}${user.service.api.userId}")
     User getUser(@PathVariable Long userId);
 }

@@ -3,8 +3,8 @@ package ru.netology.bff;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import ru.netology.bff.model.Order;
-import ru.netology.bff.model.User;
+import ru.netology.contracts.dto.Order;
+import ru.netology.contracts.dto.User;
 
 import java.util.List;
 

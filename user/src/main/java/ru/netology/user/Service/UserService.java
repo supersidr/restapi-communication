@@ -1,9 +1,8 @@
 package ru.netology.user.Service;
 
-import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PathVariable;
-import ru.netology.user.model.User;
+import ru.netology.contracts.dto.User;
 
 import java.util.ArrayList;
 import java.util.List;

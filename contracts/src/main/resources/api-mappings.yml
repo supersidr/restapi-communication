@@ -1,0 +1,18 @@
+user.service:
+  port: 8081
+  url: "http://localhost:${user.service.port}"
+  api:
+    users: "/api/users"
+    userId: "/{userId}"
+order.service:
+  port: 8083
+  url: "http://localhost:${order.service.port}"
+  api:
+    orders: "/api/orders"
+    userId: "/by-user/{userId}"
+    orderId: "/{orderId}"
+bff.service:
+  port: 8080
+  api:
+    bff: "/api/site-bff"
+    user: "/user/{userId}"
