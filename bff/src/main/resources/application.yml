@@ -1,0 +1,10 @@
+spring.application.name: "bff"
+user.service:
+  url: "http://localhost:8081"
+  path: "/api/users/"
+order.service:
+  url: "http://localhost:8082"
+  path: "/api/orders/by-user"
+bff.service.api:
+  root: "/api/site-bff"
+  user: "/user"

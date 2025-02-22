@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 import ru.netology.contracts.dto.Order;
 
-@FeignClient(name = "order-service", url = "http://localhost:8082")
+@FeignClient(name = "order-service", url = "${order.service.url}")
 public interface OrderClient {
-    @GetMapping("/api/orders/by-user/{userId}")
+    @GetMapping("${order.service.path}/{userId}")
     List<Order> getOrdersByUser(@PathVariable Long userId);
 }

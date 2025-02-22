@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/site-bff")
+@RequestMapping("${bff.service.api}")
 @RequiredArgsConstructor
 public class BffController {
     private final BffService bffService;
