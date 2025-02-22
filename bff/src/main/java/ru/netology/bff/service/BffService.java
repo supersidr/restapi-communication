@@ -5,8 +5,8 @@ import ru.netology.bff.client.OrderClient;
 import ru.netology.bff.model.UserProfileResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import ru.netology.bff.model.User;
-import ru.netology.bff.model.Order;
+import ru.netology.contracts.dto.User;
+import ru.netology.contracts.dto.Order;
 import java.util.List;
 
 @Service
