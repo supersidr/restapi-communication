@@ -15,4 +15,4 @@ bff.service:
   port: 8080
   api:
     bff: "/api/site-bff"
-    user: "   "
+    user: "/user/{userId}"

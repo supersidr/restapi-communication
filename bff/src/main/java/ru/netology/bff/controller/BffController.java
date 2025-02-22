@@ -1,13 +1,13 @@
 package ru.netology.bff.controller;
 
-import ru.netology.bff.service.BffService;
-import ru.netology.bff.model.UserProfileResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import ru.netology.bff.model.UserProfileResponse;
+import ru.netology.bff.service.BffService;
 
 @RestController
 @RequestMapping("${bff.service.api.bff}")

@@ -1,7 +1,7 @@
 package ru.netology.order.service;
 
-import org.springframework.stereotype.Service;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Service;
 import ru.netology.contracts.dto.Order;
 import ru.netology.contracts.dto.OrderItem;
 

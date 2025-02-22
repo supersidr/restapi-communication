@@ -7,6 +7,6 @@ import ru.netology.contracts.dto.User;
 
 @FeignClient(name = "user-service", url = "${user.service.url}")
 public interface UserClient {
-    @GetMapping("${user.service.api.users}/${user.service.api.userId}")
+    @GetMapping("${user.service.api.users}${user.service.api.userId}")
     User getUser(@PathVariable Long userId);
 }
